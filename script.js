@@ -31,11 +31,7 @@ for (let i = 0; i < shuffledEmoji.length; i++) {
     document.querySelector('.main').appendChild(box);
 }
 
-let n=0
 
-for(n=0;n<5;n++){
-    console.log("hello")
-}
 
 
 
