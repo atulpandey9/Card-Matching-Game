@@ -1,3 +1,5 @@
+let move=0;
+const movecounter=document.getElementById("moveCounter")
 const emoji = ["🥶","🥶","😁","😁","😍","😍","😨","😨","🤣","🤣","😎","😎","😶‍🌫️","😶‍🌫️","🤑","🤑"];
 const shuffledEmoji = emoji.sort(() => Math.random() - 0.5);
 
@@ -11,7 +13,10 @@ for (let i = 0; i < shuffledEmoji.length; i++) {
 
         let opened = document.querySelectorAll('.boxopen');
 
+
         if (opened.length === 2) {
+            move++;
+            movecounter.textContent=`Moves: ${move}`
             setTimeout(() => {
                 if (opened[0].innerHTML === opened[1].innerHTML) {
                     opened[0].classList.add('boxmatch');
@@ -30,7 +35,6 @@ for (let i = 0; i < shuffledEmoji.length; i++) {
 
     document.querySelector('.main').appendChild(box);
 }
-
 
 
 
