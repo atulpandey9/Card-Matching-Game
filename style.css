@@ -67,6 +67,12 @@ border-radius: 15px;
 .box.after,.boxmatch:after{
     transform: rotateX(180deg);
 }
+#moveCounter {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
 /* From Uiverse.io by TCdesign-dev */ 
 .reset {
     align-items: center;
@@ -127,5 +133,6 @@ border-radius: 15px;
     font-size: 5vh;
     color: palegreen;
   }
+
 
 
