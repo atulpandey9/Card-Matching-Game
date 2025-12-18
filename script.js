@@ -4,7 +4,7 @@ const bestScore = document.getElementById("bestScore");
 
 
 let bestMoves = localStorage.getItem("bestMoves");
-bestScore.textContent = bestMoves ? `Best-Moves: ${bestMoves}` : "Best: --";
+bestScore.textContent = bestMoves ? `Best-Moves: ${bestMoves}` : "Best-Score: --";
 
 const emoji = ["🥶","🥶","😁","😁","😍","😍","😨","😨","🤣","🤣","😎","😎","😶‍🌫️","😶‍🌫️","🤑","🤑"];
 const shuffledEmoji = emoji.sort(() => Math.random() - 0.5);
@@ -56,3 +56,4 @@ for (let i = 0; i < shuffledEmoji.length; i++) {
 
     document.querySelector('.main').appendChild(box);
 }
+
