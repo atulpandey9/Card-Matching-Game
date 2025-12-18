@@ -71,6 +71,7 @@ border-radius: 15px;
   font-size: 20px;
   font-weight: bold;
   color: white;
+  justify-content: space-evenly;
 }
 
 /* From Uiverse.io by TCdesign-dev */ 
@@ -134,5 +135,21 @@ border-radius: 15px;
     color: palegreen;
   }
 
+
+/* bestscore */
+#bestScore{
+  min-width: 180px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  letter-spacing: 0.5px;
+}
+#bestScore:hover{
+  transform: scale(1.03);
+}
 
 
